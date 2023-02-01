@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("#$#$ Welcome To Stacks and Queues #$#$#");
+            StackQueue a = new StackQueue();
+            a.push(70);
+            a.push(30);
+            a.push(56);
+            a.show();
         }
     }
 }
