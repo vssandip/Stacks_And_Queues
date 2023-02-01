@@ -19,10 +19,19 @@
             a.pop();
             a.pop();
             a.show();*/
-            UC1_Queues a = new UC1_Queues ();
+           /* UC1_Queues a = new UC1_Queues ();
             a.enqueue(56);
             a.enqueue(30);
             a.enqueue(70);
+            a.show();*/
+            UC2_Queues a = new UC2_Queues();
+            a.enqueue(56);
+            a.enqueue(30);
+            a.enqueue(70);
+            a.dequeue();
+            a.dequeue();
+            a.dequeue();
+            a.dequeue();
             a.show();
         }
     }
